@@ -2,17 +2,23 @@
   "name": "pratica_typescript",
   "version": "1.0.0",
   "description": "",
+      "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:fila": "ts-node exercicios-aula-09/001.fila.ts",
+    "start:pilha": "ts-node exercicios-aula-09/002.pilha.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^24.10.0",
     "@types/readline-sync": "^1.4.8",
     "readline-sync": "^1.4.10",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2"
   }
 }
